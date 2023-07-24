@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./assets/style/normalize.css" /> -->
     <link rel="stylesheet" href="./assets/styles/style.css" />
-    <link rel="shortcut icon" href="./assets/images/icons/icon1.svg" />
+    <!-- <link rel="shortcut icon" href="./assets/images/icons/icon1.svg" /> -->
     <link
       rel="stylesheet"
       href="./assets/fonts/TildaSans.07Web/TildaSans-Regular/TildaSans-Regular.css"
@@ -17,56 +18,65 @@
       rel="stylesheet"
       href="./assets/fonts/TildaSans.07Web/TildaSans-ExtraBold/TildaSans-ExtraBold.css"
     />
-    <title>ФБД</title>
+    <title>Фонд борьбы с диабетом</title>
   </head>
-
   <body>
     <header class="header">
-      <!-- <div class="header__container container">
-        <div class="header__logo">
-          <a class="header__logo-a" href="#"
-            >АНО «Объединение людей с сахарным диабетом РТ»</a
-          >
-        </div>
+      <div class="header__container container">
+        <!-- logo -->
+        <a href="#" class="header__logo"
+          ><img
+            src="./assets/images/logo2-mob.jpg"
+            class="header__img"
+            alt="ФБД"
+        /></a>
+        <!-- hamburger icon -->
+        <input class="header__side-menu" type="checkbox" id="side-menu" />
+        <label class="header__hamb" for="side-menu"
+          ><span class="header__hamb-line"></span
+        ></label>
+        <!-- menu -->
         <nav class="header__nav">
-          <ul class="header__menu">
+          <ul class="header__list">
             <li class="header__item">
-              <a class="header__item-a" href="#">Об АНО</a>
+              <a href="#" class="header__link">Фестиваль</a>
             </li>
             <li class="header__item">
-              <a class="header__item-a" href="#">Проекты</a>
+              <a href="#" class="header__link">О нас</a>
             </li>
             <li class="header__item">
-              <a class="header__item-a" href="#">Команда</a>
+              <a href="#partners" class="header__link">Партнеры</a>
             </li>
-            <li class="header__item button"><a href="#">Помочь</a></li>
+            <li class="header__item">
+              <a href="#contest" class="header__link">Конкурс</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Отзывы</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Контакты</a>
+            </li>
           </ul>
         </nav>
-      </div> -->
-
-      <div class="burger-menu">
-        <input id="menu-toggle" type="checkbox" />
-        <label class="menu-btn" for="menu-toggle">
-          <span></span>
-        </label>
-
-        <ul class="menubox">
-          <li><a class="menu-item" href="#">Home</a></li>
-          <li><a class="menu-item" href="#">About us</a></li>
-          <li><a class="menu-item" href="#">Blog</a></li>
-          <li><a class="menu-item" href="#">Articles</a></li>
-          <li><a class="menu-item" href="#">Contacts</a></li>
-        </ul>
+        <div class="header__btn-container">
+          <div class="header__btn">
+            <a href="#" class="header__btn-link button">Помочь</a>
+          </div>
+        </div>
       </div>
     </header>
     <main class="main">
-      <section class="festival"></section>
-      <section class="progress"></section>
-      <section class="partners"></section>
-      <section class="competition"></section>
-      <section class="review"></section>
-      <section class="help"></section>
+      <section class="block-festival">
+        <div class="block-festival__container container">
+          <div class="block-festival__content">
+            <div class="block-festival__text">
+              <h2 class="block-festival__title title-h2">
+                «ДиабетФест» в Казани
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer"></footer>
   </body>
 </html>
