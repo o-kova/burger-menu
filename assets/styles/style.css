@@ -31,31 +31,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 100%;
-  /*не работает с указанным размером шрифта*/
-}
-@media screen and (max-width: 900px) {
-  html {
-    font-size: 90%;
-  }
-}
-@media screen and (max-width: 700px) {
-  html {
-    font-size: 80%;
-  }
-}
-@media screen and (max-width: 500px) {
-  html {
-    font-size: 70%;
-  }
-}
-@media screen and (max-width: 400px) {
-  html {
-    font-size: 60%;
-  }
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -151,12 +126,12 @@ body {
 }
 @media screen and (max-width: 769px) {
   .header__nav {
-    margin-top: 26rem;
+    margin-top: 19rem;
   }
 }
 @media screen and (max-width: 361px) {
   .header__nav {
-    margin-top: 40rem;
+    margin-top: 20rem;
   }
 }
 
